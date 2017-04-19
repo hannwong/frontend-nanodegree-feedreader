@@ -42,6 +42,18 @@ h2 {
     top: 0;
     width: 100%;
     padding: 0.5em 1em;
+
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon-link, .header-title {
+  flex-grow: 0;
+}
+
+.github {
+  flex-grow: 1;
+  text-align: center;
 }
 
 .icon-list {
